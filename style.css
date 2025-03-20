@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.container{
+    max-width: 430px;
+    margin: 0 auto;
+}
+.bi-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41.17px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+     
+}
+input, textarea{
+    background: #0000001A !important;
+}
+.form-control {
+    padding: 10px 15px !important;
+}
+.form-label{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+.product-card {
+    border: 1px solid #007bff;
+}
+.product-img {
+    width: 60px;
+    height: auto;
+}
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+}
+.product-features ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.product-features li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+}
+.form-check-label{
+    font-weight: 400;
+    font-size: 14px;
+}
+.form-check-input:checked {
+    background-color: #0d6efd !important;
+    border-color: #0d6efd;
+}
+.form-check-input:focus {
+    border-color: #0057A4;
+    background: #0057A4 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+.accordion-header {
+    margin-bottom: 0;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 1px 1px 0px #0000001A;
+}
+.shipping li{
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+color: #0057A4;
+
+}
