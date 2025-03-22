@@ -107,7 +107,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-100 btn-lg" id="place-order">Place Order TK. <span id="order-total-amount"></span></button>
+                    <button type="submit" class="btn btn-primary w-100 btn-lg" id="place-order" data-bs-toggle="modal" data-bs-target="#thankYou">Place Order TK. <span id="order-total-amount"></span></button>
 
                 </form>
 
@@ -120,7 +120,21 @@
             </div>
 
            
-
+                <!-- Modal -->
+                <div class="modal fade" id="thankYou" data-bs-backdrop="thankyou" data-bs-keyboard="false" tabindex="-1" aria-labelledby="thankYouLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="p-5 text-center">
+                            <img src="thankyou-image.png" alt="">
+                            <h1 class="thankyou-title my-5">Thank Your</h1>
+                            <p class="thankyou-text">We are packing your things and will <a href="">ship them ASAP!</a></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
 
                 
             </div>
