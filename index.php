@@ -41,7 +41,7 @@
                             </label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="deliveryPoint" id="outside_dhaka" value="100" required>
+                            <input class="form-check-input" type="radio" name="deliveryPoint" id="outside_dhaka" value="100">
                             <label class="form-check-label" for="outside_dhaka">
                                 Outside of Dhaka (TK. 100)
                             </label>
@@ -148,13 +148,15 @@
         }
 
         // Quantity Increase
-        $("#increase-btn").click(function () {
+        $("#increase-btn").click(function (event) {
+            event.preventDefault();
             quantity++;
             updateTotalPrice();
         });
 
         // Quantity Decrease (min value: 1)
-        $("#decrease-btn").click(function () {
+        $("#decrease-btn").click(function (event) {
+            event.preventDefault();
             if (quantity > 1) {
                 quantity--;
                 updateTotalPrice();
